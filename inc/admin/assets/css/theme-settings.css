@@ -1,0 +1,122 @@
+.redux-container #redux-header img.redux-header-icon {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.redux-container #redux-header .display_header h2 {
+    display: unset;
+    font-style: normal;
+    padding-right: 5px;
+    vertical-align: baseline;
+    font-size: 30px;
+}
+
+.redux-container-image_select ul.redux-image-select li {
+    margin: 0px 10px 5px 0px !important;
+}
+
+.redux-sidebar .redux-group-tab-link-a i.dashicons.dashicons-editor-textcolor {
+    margin-left: -3px;
+    font-size: 26px;
+}
+
+.redux-sidebar .redux-group-tab-link-a i.el.el-refresh {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.redux-sidebar .redux-group-tab-link-a i.dashicons.dashicons-admin-home {
+    font-size: 22px;
+}
+
+.redux-sidebar .redux-group-tab-link-a i.dashicons.dashicons-editor-insertmore {
+    font-size: 22px;
+}
+.redux-sidebar .redux-group-tab-link-a i.dashicons.dashicons-editor-kitchensink{
+    margin-left: 1px;
+    font-size: 17px;
+}
+
+/* .redux-main #redux-sticky {
+    display: none;
+} */
+
+/* .redux-main #redux-sticky #info_bar {
+    display: none;
+}
+
+div#redux_notification_bar {
+    padding: 8px 35px 8px 20px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #dff0d8;
+    color: #468847;
+} */
+
+.redux-main .redux-action_bar .button {
+    margin-top: 0px;
+    margin: 0px 3px;
+}
+
+.redux-container > .redux-form-wrapper > .redux-main > .redux-group-tab > h2{
+    background-color: #f3f3f3; 
+    text-transform: uppercase;
+    padding: 18px 20px;
+    margin: -10px -20px 0px -20px;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+
+/* .redux-container .redux-main .form-table.form-table-subsection tr:nth-last-child(2) {
+    border-bottom: none;
+} */
+
+/* .redux-container .redux-main .form-table tr:last-child {
+    display: none;
+} */
+
+/* .redux-container .redux-main .form-table tr.fold:last-child {
+    display: contents;
+} */
+
+/* .redux-container .redux-main .form-table-subsection tr:last-child {
+    display: none;
+} */
+
+.redux-container #info_bar {
+    background: #23282d;
+    border-bottom: 1px solid #23282d;
+    padding: 6px 10px 6px 6px;
+    text-align: right;
+    -webkit-box-shadow: inset 0 1px 0 #23282d;
+    box-shadow: inset 0 1px 0 #23282d;
+}
+
+
+@media (max-width: 1405px){
+    .redux_field_th {
+        padding-top: 10px !important;
+    }
+    .redux-main .redux-field-container {
+        padding-top: 10px !important;
+    }
+}
+
+
+/* metaboxes css */
+
+.ui-button {
+    border-radius: 0px;
+}
+
+ul.data-full {
+    margin: 0px;
+}
+
+.postbox .redux-container.redux-has-sections .redux-main span.description {
+    padding-bottom: 0px !important;
+}
